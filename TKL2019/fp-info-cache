@@ -1,4 +1,4 @@
-16458388199325487
+16461543009646671
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73583,6 +73583,20 @@ tmk_logo
 0
 0
 0
+oldstuff
+C_0805_HandSoldering
+Capacitor SMD 0805, hand soldering
+capacitor 0805
+0
+2
+2
+oldstuff
+R_0805_HandSoldering
+Resistor SMD 0805, hand soldering
+resistor 0805
+0
+2
+2
 oldstuff
 crystal_FA238-TSX3225
 crystal Epson Toyocom FA-238 and TSX-3225 series
