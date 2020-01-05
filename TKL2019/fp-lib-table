@@ -2,4 +2,5 @@
   (lib (name keebs)(type KiCad)(uri C:/Users/Blackberry/Documents/Tadakey/keebs.pretty-master)(options "")(descr ""))
   (lib (name keyboard_parts)(type KiCad)(uri C:/Users/Blackberry/Documents/Tadakey/keyboard_parts.pretty-master)(options "")(descr ""))
   (lib (name oldstuff)(type KiCad)(uri C:/Users/Blackberry/Documents/Tadakey/oldstuff.pretty-master)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri C:/Users/Blackberry/Documents/Tadakey/SamacSys/SamacSys_Parts.pretty)(options "")(descr ""))
 )
