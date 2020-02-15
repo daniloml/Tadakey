@@ -1,6 +1,25 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_TestPoint_2Pole
+#
+DEF Connector_TestPoint_2Pole TP 0 30 Y N 1 F N
+F0 "TP" 0 60 50 H V C CNN
+F1 "Connector_TestPoint_2Pole" 0 -70 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Pin*
+ Test*
+$ENDFPLIST
+DRAW
+C -70 0 30 0 1 0 N
+C 70 0 30 0 1 0 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Device_C_Small
 #
 DEF Device_C_Small C 0 10 N N 1 F N
@@ -16,29 +35,6 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_LED
-#
-DEF Device_LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -112,37 +108,6 @@ X UCap 6 -1050 550 300 R 50 50 1 1 I
 X VBus 7 -1050 450 300 R 50 50 1 1 I
 X PB0/SS 8 -1050 350 300 R 50 50 1 1 B
 X PB1/SCK 9 -1050 250 300 R 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# keyboard_parts_D
-#
-DEF keyboard_parts_D D 0 40 Y Y 1 F N
-F0 "D" -150 -50 60 V V C CNN
-F1 "keyboard_parts_D" 150 -50 60 V I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 2 0 1 0 -100 0 100 0 N
-P 4 0 1 0 0 0 -100 -100 100 -100 0 0 F
-X ~ 1 0 50 50 D 60 60 1 1 P
-X ~ 2 0 -150 50 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# keyboard_parts_KEYSW
-#
-DEF keyboard_parts_KEYSW K? 0 40 Y Y 1 F N
-F0 "K?" -50 0 60 H V C CNN
-F1 "keyboard_parts_KEYSW" 0 -100 60 H I C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-C -200 0 50 0 1 0 N
-C 200 0 50 0 1 0 N
-P 2 0 1 10 -200 50 150 150 N
-X ~ 1 300 0 50 L 60 60 1 1 P
-X ~ 2 -300 0 50 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
